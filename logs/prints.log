@@ -1,2 +1,6 @@
-17:10:30.381 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test3 execution has started
-17:10:30.388 [main] ERROR com.andoroathodi.E2EApril2.Listeners - test3 execution has failed with following error: java.lang.AssertionError: expected:<5> but was:<9>
+18:59:05.675 [main] INFO  com.andoroathodi.E2EApril2.Listeners - GoogleTest execution has started
+18:59:05.685 [main] INFO  com.andoroathodi.E2EApril2.Listeners - valdiateUserDetails execution has started
+18:59:05.686 [main] INFO  com.andoroathodi.E2EApril2.Listeners - validateNewAcntText execution has started
+18:59:05.688 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test1 execution has started
+18:59:05.689 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test2 execution has started
+18:59:05.690 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test3 execution has started

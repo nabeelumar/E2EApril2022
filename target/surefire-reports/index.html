@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,60 +93,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 4 failed,   3 passed</span>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.tst" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.tst" class="method navigator-link" hash-for-method="test3">test3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.exectuinClass" class="method navigator-link" hash-for-method="valdiateUserDetails(vijay, gdfg)">valdiateUserDetails(vijay, gdfg)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.exectuinClass" class="method navigator-link" hash-for-method="validateNewAcntText">validateNewAcntText</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.exectuinClass" class="method navigator-link" hash-for-method="GoogleTest">GoogleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.tst" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.tst" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.exectuinClass" class="method navigator-link" hash-for-method="valdiateUserDetails(alex, 3434)">valdiateUserDetails(alex, 3434)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.tst" class="method navigator-link" hash-for-method="test3">test3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.exectuinClass" class="method navigator-link" hash-for-method="valdiateUserDetails">valdiateUserDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.andoroathodi.E2EApril2.exectuinClass" class="method navigator-link" hash-for-method="validateNewAcntText">validateNewAcntText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -158,74 +144,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.andoroathodi.E2EApril2.exectuinClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="valdiateUserDetails(vijay, gdfg)">
-                  </a> <!-- valdiateUserDetails(vijay, gdfg) -->
-                  <span class="method-name">valdiateUserDetails</span>
-                  <span class="parameters">(vijay, gdfg)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;Wrong username and password combination.&gt; but was:&lt;Temporary error occured[#5001], please try again.&gt;
-	at com.andoroathodi.E2EApril2.exectuinClass.valdiateUserDetails(exectuinClass.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateNewAcntText">
-                  </a> <!-- validateNewAcntText -->
-                  <span class="method-name">validateNewAcntText</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;Create a new account&gt; but was:&lt;Create new account&gt;
-	at com.andoroathodi.E2EApril2.exectuinClass.validateNewAcntText(exectuinClass.java:72)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.andoroathodi.E2EApril2.tst</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;6&gt;
-	at com.andoroathodi.E2EApril2.tst.test1(tst.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test3">
-                  </a> <!-- test3 -->
-                  <span class="method-name">test3</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;9&gt;
-	at com.andoroathodi.E2EApril2.tst.test3(tst.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.andoroathodi.E2EApril2.exectuinClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -234,33 +155,83 @@
                   <a name="GoogleTest">
                   </a> <!-- GoogleTest -->
                   <span class="method-name">GoogleTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="valdiateUserDetails(alex, 3434)">
-                  </a> <!-- valdiateUserDetails(alex, 3434) -->
+                  <a name="valdiateUserDetails">
+                  </a> <!-- valdiateUserDetails -->
                   <span class="method-name">valdiateUserDetails</span>
-                  <span class="parameters">(alex, 3434)</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.andoroathodi.E2EApril2.exectuinClass.valdiateUserDetails() on instance com.andoroathodi.E2EApril2.exectuinClass@344561e0 depends on not successfully finished methods 
+[com.andoroathodi.E2EApril2.exectuinClass.GoogleTest() on instance com.andoroathodi.E2EApril2.exectuinClass@344561e0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewAcntText">
+                  </a> <!-- validateNewAcntText -->
+                  <span class="method-name">validateNewAcntText</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.andoroathodi.E2EApril2.tst</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="test2">
                   </a> <!-- test2 -->
                   <span class="method-name">test2</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3">
+                  </a> <!-- test3 -->
+                  <span class="method-name">test3</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -317,40 +288,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'GoogleTest')
-data.setCell(0, 2, 'com.andoroathodi.E2EApril2.exectuinClass')
-data.setCell(0, 3, 11456);
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'com.andoroathodi.E2EApril2.tst')
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'valdiateUserDetails')
+data.setCell(1, 1, 'validateNewAcntText')
 data.setCell(1, 2, 'com.andoroathodi.E2EApril2.exectuinClass')
-data.setCell(1, 3, 4041);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'valdiateUserDetails')
 data.setCell(2, 2, 'com.andoroathodi.E2EApril2.exectuinClass')
-data.setCell(2, 3, 1443);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateNewAcntText')
+data.setCell(3, 1, 'GoogleTest')
 data.setCell(3, 2, 'com.andoroathodi.E2EApril2.exectuinClass')
-data.setCell(3, 3, 941);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test3')
+data.setCell(4, 1, 'test2')
 data.setCell(4, 2, 'com.andoroathodi.E2EApril2.tst')
-data.setCell(4, 3, 7);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test1')
+data.setCell(5, 1, 'test3')
 data.setCell(5, 2, 'com.andoroathodi.E2EApril2.tst')
-data.setCell(5, 3, 2);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test2')
-data.setCell(6, 2, 'com.andoroathodi.E2EApril2.tst')
-data.setCell(6, 3, 1);
+data.setCell(5, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -378,71 +345,56 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.andoroathodi.E2EApril2.exectuinClass</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">GoogleTest</span>
-                <span class="method-start">7143 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18609 ms</span>
+                <span class="method-start">41 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">valdiateUserDetails(alex, 3434)</span>
-                <span class="method-start">18619 ms</span>
+                <span class="method-name">valdiateUserDetails</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">20063 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">valdiateUserDetails(vijay, gdfg)</span>
-                <span class="method-start">20064 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24522 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validateNewAcntText</span>
-                <span class="method-start">24523 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29862 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.andoroathodi.E2EApril2.tst</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test1</span>
-                <span class="method-start">29865 ms</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">29874 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test3</span>
-                <span class="method-start">29876 ms</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.andoroathodi.E2EApril2.exectuinClass</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29886 ms</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.andoroathodi.E2EApril2.tst</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test3</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

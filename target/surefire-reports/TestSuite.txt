@@ -1,20 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 32.789 s <<< FAILURE! - in TestSuite
-com.andoroathodi.E2EApril2.exectuinClass.valdiateUserDetails[vijay, gdfg](2)  Time elapsed: 4.46 s  <<< FAILURE!
-java.lang.AssertionError: expected:<Wrong username and password combination.> but was:<Temporary error occured[#5001], please try again.>
-	at com.andoroathodi.E2EApril2.exectuinClass.valdiateUserDetails(exectuinClass.java:63)
-
-com.andoroathodi.E2EApril2.exectuinClass.validateNewAcntText  Time elapsed: 5.336 s  <<< FAILURE!
-java.lang.AssertionError: expected:<Create a new account> but was:<Create new account>
-	at com.andoroathodi.E2EApril2.exectuinClass.validateNewAcntText(exectuinClass.java:72)
-
-com.andoroathodi.E2EApril2.tst.test1  Time elapsed: 0.021 s  <<< FAILURE!
-java.lang.AssertionError: expected:<5> but was:<6>
-	at com.andoroathodi.E2EApril2.tst.test1(tst.java:19)
-
-com.andoroathodi.E2EApril2.tst.test3  Time elapsed: 0.029 s  <<< FAILURE!
-java.lang.AssertionError: expected:<5> but was:<9>
-	at com.andoroathodi.E2EApril2.tst.test3(tst.java:42)
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 1.942 s <<< FAILURE! - in TestSuite
+com.andoroathodi.E2EApril2.exectuinClass.setUp  Time elapsed: 1.28 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
 

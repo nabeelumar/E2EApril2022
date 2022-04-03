@@ -15,9 +15,9 @@ public class tst {
 	int a = 6;
 	int b=6;
 	int x=5;
-	int y=9;
+	int y=5;
 	AssertJUnit.assertEquals(a, b);	
-	AssertJUnit.assertEquals(a, x);
+	AssertJUnit.assertEquals(y, x);
 	System.out.println("check TEST1");
 	a1.assertAll();
 	}

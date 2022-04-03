@@ -9,28 +9,40 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">RediffTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">29,890</td><td></td><td></td></tr>
+<tr><td><a href="#t0">RediffTest</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num">0</td><td class="num">55</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RediffTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.andoroathodi.E2EApril2.exectuinClass</td><td><a href="#m0">valdiateUserDetails</a></td><td rowspan="1">1648944620569</td><td rowspan="1">4041</td></tr><tr class="failedeven"><td><a href="#m1">validateNewAcntText</a></td><td rowspan="1">1648944625028</td><td rowspan="1">941</td></tr><tr class="failedodd"><td rowspan="2">com.andoroathodi.E2EApril2.tst</td><td><a href="#m2">test1</a></td><td rowspan="1">1648944630370</td><td rowspan="1">2</td></tr><tr class="failedodd"><td><a href="#m3">test3</a></td><td rowspan="1">1648944630381</td><td rowspan="1">7</td></tr><tr><th colspan="4">RediffTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.andoroathodi.E2EApril2.exectuinClass</td><td><a href="#m4">GoogleTest</a></td><td rowspan="1">1648944607648</td><td rowspan="1">11456</td></tr><tr class="passedeven"><td><a href="#m5">valdiateUserDetails</a></td><td rowspan="1">1648944619124</td><td rowspan="1">1443</td></tr><tr class="passedodd"><td rowspan="1">com.andoroathodi.E2EApril2.tst</td><td><a href="#m6">test2</a></td><td rowspan="1">1648944630379</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RediffTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.andoroathodi.E2EApril2.exectuinClass</td><td><a href="#m0">setUp</a></td><td rowspan="1">1648951145639</td><td rowspan="1">6</td></tr><tr><th colspan="4">RediffTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.andoroathodi.E2EApril2.exectuinClass</td><td><a href="#m1">tearDown</a></td><td rowspan="3">1648951145680</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m2">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m3">tearDown</a></td></tr><tr><th colspan="4">RediffTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.andoroathodi.E2EApril2.exectuinClass</td><td><a href="#m4">GoogleTest</a></td><td rowspan="1">1648951145670</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">valdiateUserDetails</a></td><td rowspan="1">1648951145685</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">validateNewAcntText</a></td><td rowspan="1">1648951145686</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">com.andoroathodi.E2EApril2.tst</td><td><a href="#m7">test1</a></td><td rowspan="1">1648951145688</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m8">test2</a></td><td rowspan="1">1648951145689</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m9">test3</a></td><td rowspan="1">1648951145690</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>RediffTest</h2><h3 id="m0">com.andoroathodi.E2EApril2.exectuinClass#valdiateUserDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>vijay</td><td>gdfg</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected:&lt;Wrong username and password combination.&gt; but was:&lt;Temporary error occured[#5001], please try again.&gt;
-	at com.andoroathodi.E2EApril2.exectuinClass.valdiateUserDetails(exectuinClass.java:63)
+<h2>RediffTest</h2><h3 id="m0">com.andoroathodi.E2EApril2.exectuinClass#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.andoroathodi.E2EApril2.exectuinClass#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.andoroathodi.E2EApril2.exectuinClass#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.andoroathodi.E2EApril2.exectuinClass#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.andoroathodi.E2EApril2.exectuinClass#GoogleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.andoroathodi.E2EApril2.exectuinClass#valdiateUserDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.andoroathodi.E2EApril2.exectuinClass.valdiateUserDetails() on instance com.andoroathodi.E2EApril2.exectuinClass@344561e0 depends on not successfully finished methods 
+[com.andoroathodi.E2EApril2.exectuinClass.GoogleTest() on instance com.andoroathodi.E2EApril2.exectuinClass@344561e0]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.andoroathodi.E2EApril2.exectuinClass#validateNewAcntText</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;Create a new account&gt; but was:&lt;Create new account&gt;
-	at com.andoroathodi.E2EApril2.exectuinClass.validateNewAcntText(exectuinClass.java:72)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.andoroathodi.E2EApril2.tst#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;6&gt;
-	at com.andoroathodi.E2EApril2.tst.test1(tst.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.andoroathodi.E2EApril2.tst#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;9&gt;
-	at com.andoroathodi.E2EApril2.tst.test3(tst.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.andoroathodi.E2EApril2.exectuinClass#GoogleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.andoroathodi.E2EApril2.exectuinClass#valdiateUserDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>alex</td><td>3434</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.andoroathodi.E2EApril2.tst#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.andoroathodi.E2EApril2.exectuinClass#validateNewAcntText</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.andoroathodi.E2EApril2.tst#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.andoroathodi.E2EApril2.tst#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.andoroathodi.E2EApril2.tst#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.base.intializeDriver(base.java:29)
+	at com.andoroathodi.E2EApril2.exectuinClass.setUp(exectuinClass.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
