@@ -1,0 +1,12 @@
+17:10:07.654 [main] INFO  com.andoroathodi.E2EApril2.Listeners - GoogleTest execution has started
+17:10:19.105 [main] INFO  com.andoroathodi.E2EApril2.Listeners - GoogleTest execution has passed
+17:10:19.124 [main] INFO  com.andoroathodi.E2EApril2.Listeners - valdiateUserDetails execution has started
+17:10:20.567 [main] INFO  com.andoroathodi.E2EApril2.Listeners - valdiateUserDetails execution has passed
+17:10:20.569 [main] INFO  com.andoroathodi.E2EApril2.Listeners - valdiateUserDetails execution has started
+17:10:24.610 [main] ERROR com.andoroathodi.E2EApril2.Listeners - valdiateUserDetails execution has failed with following error: java.lang.AssertionError: expected:<Wrong username and password combination.> but was:<Temporary error occured[#5001], please try again.>
+17:10:25.028 [main] INFO  com.andoroathodi.E2EApril2.Listeners - validateNewAcntText execution has started
+17:10:25.970 [main] ERROR com.andoroathodi.E2EApril2.Listeners - validateNewAcntText execution has failed with following error: java.lang.AssertionError: expected:<Create a new account> but was:<Create new account>
+17:10:30.370 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test1 execution has started
+17:10:30.372 [main] ERROR com.andoroathodi.E2EApril2.Listeners - test1 execution has failed with following error: java.lang.AssertionError: expected:<5> but was:<6>
+17:10:30.379 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test2 execution has started
+17:10:30.380 [main] INFO  com.andoroathodi.E2EApril2.Listeners - test2 execution has passed

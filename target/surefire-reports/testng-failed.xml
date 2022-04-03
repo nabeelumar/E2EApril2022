@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.andoroathodi.E2EApril2.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="RediffTest(failed)" verbose="0">
+    <classes>
+      <class name="com.andoroathodi.E2EApril2.exectuinClass">
+        <methods>
+          <include name="validateNewAcntText"/>
+          <include name="setUp"/>
+          <include name="GoogleTest"/>
+          <include name="tearDown"/>
+          <include name="valdiateUserDetails" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.andoroathodi.E2EApril2.exectuinClass -->
+      <class name="com.andoroathodi.E2EApril2.tst">
+        <methods>
+          <include name="test3"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.andoroathodi.E2EApril2.tst -->
+    </classes>
+  </test> <!-- RediffTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
