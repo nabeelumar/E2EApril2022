@@ -12,7 +12,7 @@ public class tst {
 	@Test
 	public void test1() {
 		SoftAssert a1= new SoftAssert();
-	int a = 5;
+	int a = 6;
 	int b=6;
 	int x=5;
 	int y=9;
